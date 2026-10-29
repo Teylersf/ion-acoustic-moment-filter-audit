@@ -1,12 +1,15 @@
 {
   "author": "Taylor Kalin",
   "version": "1.0.0",
-  "checked_at_utc": "2026-10-29T22:23:36.575313+00:00",
+  "checked_at_utc": "2026-10-29T22:50:48.472569+00:00",
   "scientific_audit": "complete_supported_bounded_mathematical_comment",
   "scientific_code_commit": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
   "github": {
-    "state": "public_code_manuscript_release_prepared",
-    "url": "https://github.com/Teylersf/ion-acoustic-moment-filter-audit"
+    "state": "public_preprint_verified",
+    "url": "https://github.com/Teylersf/ion-acoustic-moment-filter-audit",
+    "release": "https://github.com/Teylersf/ion-acoustic-moment-filter-audit/releases/tag/v1.0.0",
+    "release_commit": "79e2a917851d3aa882d4384798ac39afb3027b1e",
+    "pdf_sha256": "ad44e02676294d9f649e3e9cd98f2f595840d95b5d79721f64db787b3ec16e4b"
   },
   "zenodo": {
     "state": "published_anonymously_verified",
@@ -16,9 +19,13 @@
     "scope": "Software publication, not manuscript acceptance"
   },
   "airaxiv": {
-    "state": "under_moderation",
+    "state": "published",
     "submission_id": 1290,
-    "url": "https://airaxiv.com/papers/submissions/1290/"
+    "url": "https://airaxiv.com/papers/view/2610.0121/",
+    "paper_id": "2610.0121",
+    "public_version": 1,
+    "observed_at_utc": "2026-10-29T22:50:45.219200+00:00",
+    "pdf_sha256": "ad44e02676294d9f649e3e9cd98f2f595840d95b5d79721f64db787b3ec16e4b"
   },
   "publishfun": {
     "state": "validated_waiting_daily_allowance",

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T22:25:10.272873+00:00",
+  "repository": {
+    "url": "https://github.com/Teylersf/ion-acoustic-moment-filter-audit",
+    "private": false,
+    "visibility": "public"
+  },
+  "release": {
+    "url": "https://github.com/Teylersf/ion-acoustic-moment-filter-audit/releases/tag/v1.0.0",
+    "tag": "v1.0.0",
+    "target_commitish": "79e2a917851d3aa882d4384798ac39afb3027b1e",
+    "resolved_commit": "79e2a917851d3aa882d4384798ac39afb3027b1e",
+    "remote_tag_commit_verified": true,
+    "published_at": "2026-10-29T22:24:10Z",
+    "draft": false
+  },
+  "release_PDF": {
+    "url": "https://github.com/Teylersf/ion-acoustic-moment-filter-audit/releases/download/v1.0.0/main.pdf",
+    "http_status": 200,
+    "content_type": "application/octet-stream",
+    "bytes": 355428,
+    "sha256": "ad44e02676294d9f649e3e9cd98f2f595840d95b5d79721f64db787b3ec16e4b",
+    "final_host": "release-assets.githubusercontent.com",
+    "checked_at_utc": "2026-10-29T22:25:11.650396+00:00",
+    "matches_frozen_local_bytes": true
+  },
+  "pinned_manuscript": {
+    "url": "https://raw.githubusercontent.com/Teylersf/ion-acoustic-moment-filter-audit/79e2a917851d3aa882d4384798ac39afb3027b1e/paper/manuscript.md",
+    "http_status": 200,
+    "content_type": "text/plain",
+    "bytes": 23117,
+    "sha256": "16c43578caf6c0ff410fe18b5f7e6f433bcaacfb5d6333862340fb1b619f9a3a",
+    "final_host": "raw.githubusercontent.com",
+    "checked_at_utc": "2026-10-29T22:25:11.908002+00:00",
+    "matches_frozen_local_bytes": true
+  },
+  "scientific_code_commit": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+  "Publish_fun_figure_URLs": [
+    {
+      "url": "https://raw.githubusercontent.com/Teylersf/ion-acoustic-moment-filter-audit/36b1c070e029fd7e3c05e96af3b93172444bfee2/figures/moment-compatibility.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "bytes": 152312,
+      "sha256": "5c4579098c8cbc74797eb271b880db39d800e28e3dde43683fe2242a648eb301",
+      "final_host": "raw.githubusercontent.com",
+      "checked_at_utc": "2026-10-29T22:25:12.217270+00:00",
+      "matches_frozen_local_bytes": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Teylersf/ion-acoustic-moment-filter-audit/36b1c070e029fd7e3c05e96af3b93172444bfee2/figures/filter-covariance.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "bytes": 128729,
+      "sha256": "d60e0bc6395c66530953ed53475823f20ed8347fb2d422eb40485452edacf79f",
+      "final_host": "raw.githubusercontent.com",
+      "checked_at_utc": "2026-10-29T22:25:12.513282+00:00",
+      "matches_frozen_local_bytes": true
+    }
+  ]
+}

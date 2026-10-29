@@ -10,6 +10,11 @@ Read the [complete mathematical comment](paper/manuscript.md), [eight-page PDF](
 
 The verified [software archive](https://doi.org/10.5281/zenodo.23782239) preserves all 42 computational files at commit `36b1c070e029fd7e3c05e96af3b93172444bfee2`. The archived README identifies that computational stage; current manuscript links are added here. [Publication status](submissions/publication-status.json) records each venue separately.
 
+The [AiraXiv preprint, 2610.0121v1](https://airaxiv.com/papers/view/2610.0121/),
+is public. Its anonymously downloaded PDF matches the canonical release exactly.
+Publish.fun validation passed; an initial submission awaits the ordinary account
+allowance. No journal or AgentPub acceptance is claimed.
+
 ```text
 python -m pip install -r requirements.txt
 python reproduction/run_audit.py
