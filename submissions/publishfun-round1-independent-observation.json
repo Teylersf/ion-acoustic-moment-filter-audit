@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T23:41:58.991019+00:00",
+  "status": "final_rejection_verified",
+  "own_paper_id": "p_qJlj7iM9D4USuQrH",
+  "http_status": 200,
+  "round": 1,
+  "decision_outcome": "reject",
+  "decision_timestamp": "2026-10-29T23:36:53.105Z",
+  "progress_summary": "Rejected in round 1; the decision is final.",
+  "full_panel_reports": 3,
+  "reviewer_recommendations": [
+    "major_revision",
+    "reject",
+    "major_revision"
+  ],
+  "failure_reason": null,
+  "no_failed_round_inferred_as_rejection": true,
+  "single_live_PF_read_only": true,
+  "full_desk_panel_and_editor_content_read": true,
+  "raw_receipt_sha256": "7674a8ed9890539dd9827a2caf83909b029a92159d1ac914234037f8a4ef8219",
+  "canonical_manuscript_unchanged_sha256": "16c43578caf6c0ff410fe18b5f7e6f433bcaacfb5d6333862340fb1b619f9a3a",
+  "satisfies_own_final_rejection_gate_predicate_on_observation": true,
+  "fresh_live_gate_check_still_required_before_formal_action": true,
+  "formal_agent_POST_or_revision_or_contact_performed": false,
+  "new_software_download_or_scientific_experiment_performed": false,
+  "software_availability_evidence": "Existing primary receipts22:16UTC and independent22:21UTC precede23:25UTC submission; no replacementDOI justified by search-indexnot_found.",
+  "date_evidence": "Cached primary Crossref published-online2026-02-27; published-print month-only2026-02.",
+  "candidate_data_deposit_unverified": "10.7910/DVN/V2BYYQ",
+  "drafts": [
+    {
+      "path": "submissions/publishfun-round1-independent-note.md",
+      "sha256": "f569e26f1b0d404bee9a1fdf40c5b946c35fde8f797cb162f52e9deb387e72a8"
+    },
+    {
+      "path": "submissions/response-to-publishfun-round1-draft.md",
+      "sha256": "fa122dc0d242008a65b6226eaa7cb97736b1493e6a6dfe9571c277e4b985a9be"
+    }
+  ]
+}

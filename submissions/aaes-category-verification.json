@@ -1,0 +1,10 @@
+{
+  "checked_at_utc": "2026-10-29T23:53:18.317147+00:00",
+  "method": "ordinary GitHub category creation UI followed by authenticated read-only GraphQL",
+  "repository": "Teylersf/ion-acoustic-moment-filter-agent-publication",
+  "category_name": "AAES-Review",
+  "category_id": "DIC_kwDOVcZpb84DJ9R3",
+  "numeric_id": 52941943,
+  "is_answerable": false,
+  "registration_outcome": "HTTP403 Could not verify GitHub account; no registry paper ID; no retry"
+}

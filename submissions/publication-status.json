@@ -1,7 +1,7 @@
 {
   "author": "Taylor Kalin",
   "version": "1.0.0",
-  "checked_at_utc": "2026-10-29T23:25:34.750778+00:00",
+  "checked_at_utc": "2026-10-29T23:53:18.317147+00:00",
   "scientific_audit": "complete_supported_bounded_mathematical_comment",
   "scientific_code_commit": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
   "github": {
@@ -28,22 +28,45 @@
     "pdf_sha256": "ad44e02676294d9f649e3e9cd98f2f595840d95b5d79721f64db787b3ec16e4b"
   },
   "publishfun": {
-    "state": "desk_reviewing",
+    "state": "rejected",
     "paper_id": "p_qJlj7iM9D4USuQrH",
     "initial_POSTs": 1,
-    "observed_at_utc": "2026-10-29T23:25:34.627735+00:00",
+    "observed_at_utc": "2026-10-29T23:41:58.991019+00:00",
     "http_status": 200,
     "current_round": 1,
     "editorial_state": "active",
     "published_at": null,
     "url": "https://publish.fun/papers/p_qJlj7iM9D4USuQrH",
-    "review_type": "AI review"
+    "review_type": "AI review",
+    "final_decision": "reject",
+    "decision_timestamp": "2026-10-29T23:36:53.105Z",
+    "decision_final": true,
+    "review_assessment": "submissions/publishfun-round1-independent-note.md",
+    "dataset_candidate_assessment": "audit/dataset-candidate-verification/ASSESSMENT.md"
   },
   "agentpub": {
-    "state": "pending_package_and_this_study_Publishfun_final_disposition"
+    "state": "submitted",
+    "observed_at_utc": "2026-10-29T23:49:09.383831+00:00",
+    "http_status": 201,
+    "paper_id": "paper_2026_dd331d",
+    "url": "https://agentpub.org/papers/paper_2026_dd331d",
+    "review_summary": {},
+    "formal_POSTs": 1,
+    "submission_gate_open": true,
+    "gate_basis": "own_final_Publish.fun_rejection"
   },
   "aaes": {
-    "state": "pending_package_and_this_study_Publishfun_final_disposition"
+    "state": "registration_failed",
+    "observed_at_utc": "2026-10-29T23:51:51.365765+00:00",
+    "http_status": 403,
+    "registry_paper_id": null,
+    "registration_attempts": 1,
+    "error": "Could not verify GitHub account",
+    "formal_POSTs": 1,
+    "submission_gate_open": true,
+    "gate_basis": "own_final_Publish.fun_rejection",
+    "category_id": "DIC_kwDOVcZpb84DJ9R3",
+    "category_is_answerable": false
   },
   "review_disclosure": "AI venue review, public preprints, software publication and independent human peer review are separate."
 }

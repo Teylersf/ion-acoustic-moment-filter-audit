@@ -1,10 +1,10 @@
 {
-  "checked_at_utc": "2026-10-29T23:25:34.627735+00:00",
+  "checked_at_utc": "2026-10-29T23:41:58.991019+00:00",
   "http_status": 200,
   "study": "ion-acoustic-moment-filter-audit",
   "owned_paper_id": "p_qJlj7iM9D4USuQrH",
   "response": {
-    "status": "desk_reviewing",
+    "status": "rejected",
     "current_round": 1,
     "editorial_state": "active",
     "published_at": null,
