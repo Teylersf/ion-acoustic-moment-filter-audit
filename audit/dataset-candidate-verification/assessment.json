@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "verified_at_utc": "2026-10-29T23:49:21.433978+00:00",
+  "status": "authentic_source_linked_manuscript_deposit_only_in_public_inventory",
+  "candidate_DOI": "10.7910/DVN/V2BYYQ",
+  "DataCite_state": "findable",
+  "title": "Role of ion acoustic instability in magnetic reconnection",
+  "publisher": "Harvard Dataverse",
+  "creator_string_as_recorded": "Dion Li, Zhuo Liu and Nuno F. Loureiro",
+  "creator_entry_count": 1,
+  "individual_ORCIDs_supplied": false,
+  "explicit_source_paper_DOI": "10.1017/S002237782510113X",
+  "explicit_source_citation": "J. Plasma Phys. (2026), vol.92,E20",
+  "explicit_MIT_report": "PSFC/JA-25-49",
+  "dataset_id": 13578091,
+  "record_resource_type": "Dataset",
+  "public_released_versions": [
+    {
+      "version": "1.0",
+      "state": "RELEASED",
+      "release_time": "2026-02-27T18:52:26Z",
+      "file_count": 1
+    }
+  ],
+  "publication_date": "2026-02-27",
+  "DataCite_created": "2026-02-27T18:51:11.000Z",
+  "DataCite_registered": "2026-02-27T18:52:27.000Z",
+  "record_license": {
+    "name": "CC0 1.0",
+    "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+    "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+    "rightsIdentifier": "CC0-1.0",
+    "rightsIdentifierScheme": "SPDX",
+    "schemeUri": "https://spdx.org/licenses/",
+    "languageCode": "en"
+  },
+  "public_files": [
+    {
+      "file_id": 13578092,
+      "filename": "25ja049_archival_manuscript.pdf",
+      "content_type": "application/pdf",
+      "bytes": 3927085,
+      "restricted": false,
+      "server_reported_checksum": {
+        "type": "MD5",
+        "value": "d4d2cfb71e483d69fcaed28e399cd354"
+      },
+      "checksum_independently_rehashed": false,
+      "file_content_downloaded": false
+    }
+  ],
+  "file_inventory_complete_for_visible_released_versions": true,
+  "raw_fields_or_particle_arrays_separately_listed": false,
+  "postprocessing_or_filter_configuration_separately_listed": false,
+  "plot_image_files_separately_listed": false,
+  "only_listed_content_class": "PDF named archival manuscript; internal bytes/attachments uninspected",
+  "source_filter_kernel_resolved": false,
+  "source_Fig10_budget_quantifiable_from_inspected_metadata": false,
+  "no_inventory_evidence_requires_changed_scientific_claim": true,
+  "possible_value": "Alternate source-linked manuscript-access route; PDF content/edition identity unverified.",
+  "limitations": [
+    "No actual file downloaded or executed, including the PDF.",
+    "Server MD5 recorded only; not independently rehashed.",
+    "No inference about hidden/unreleased drafts, other repositories or available-on-request data.",
+    "Landing HTML requires human JavaScript verification; public anonymous metadata APIs succeeded without bypass.",
+    "Record-level CC0 metadata does not independently verify notices inside the uninspected PDF."
+  ],
+  "formal_publication_email_queue_or_source_changes": false,
+  "metadata_requests_only": true,
+  "no_authentication_or_vault": true,
+  "evidence": [
+    {
+      "path": "ASSESSMENT.md",
+      "bytes": 4936,
+      "sha256": "e4acab8198fcdd521cdc94108693ba0f0f4c1730651f42133ba130e050477123"
+    },
+    {
+      "path": "datacite.json",
+      "bytes": 9702,
+      "sha256": "d9af3ebf2cd4040ce3127204ba1051d0c797867121dc08b98198e2f5e05b772c"
+    },
+    {
+      "path": "dataverse-dataset.json",
+      "bytes": 5343,
+      "sha256": "e9ad5ca6bd9867a7774a6dd371843817dd86a84524aa34ce83ae2da898449ac3"
+    },
+    {
+      "path": "dataverse-versions.json",
+      "bytes": 4963,
+      "sha256": "e72432c2b4b9cdd1e79e8d927ed2aafbc64ed53cebfbbeceb9dd973a0069db8b"
+    },
+    {
+      "path": "primary-metadata-receipts.json",
+      "bytes": 2507,
+      "sha256": "b29a9ac3a6336bc73f4146a57938dfc14f813ccf4589031fb62135ca050b842b"
+    }
+  ]
+}

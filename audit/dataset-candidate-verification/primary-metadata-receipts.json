@@ -1,0 +1,52 @@
+[
+  {
+    "name": "datacite.json",
+    "url": "https://api.datacite.org/dois/10.7910/DVN/V2BYYQ",
+    "final_url": "https://api.datacite.org/dois/10.7910/DVN/V2BYYQ",
+    "checked_at_utc": "2026-10-29T23:47:37.746708+00:00",
+    "http_status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 9702,
+    "sha256": "d9af3ebf2cd4040ce3127204ba1051d0c797867121dc08b98198e2f5e05b772c",
+    "authentication_used": false,
+    "scope": "Public metadata only; no dataset file content requested."
+  },
+  {
+    "name": "dataverse-dataset.json",
+    "url": "https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi%3A10.7910%2FDVN%2FV2BYYQ",
+    "final_url": "https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi%3A10.7910%2FDVN%2FV2BYYQ",
+    "checked_at_utc": "2026-10-29T23:47:38.190719+00:00",
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "bytes": 5343,
+    "sha256": "e9ad5ca6bd9867a7774a6dd371843817dd86a84524aa34ce83ae2da898449ac3",
+    "authentication_used": false,
+    "scope": "Public metadata only; no dataset file content requested."
+  },
+  {
+    "name": "dataverse-versions.json",
+    "url": "https://dataverse.harvard.edu/api/datasets/13578091/versions",
+    "final_url": "https://dataverse.harvard.edu/api/datasets/13578091/versions",
+    "checked_at_utc": "2026-10-29T23:48:09.809131+00:00",
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "bytes": 4963,
+    "sha256": "e72432c2b4b9cdd1e79e8d927ed2aafbc64ed53cebfbbeceb9dd973a0069db8b",
+    "authentication_used": false,
+    "scope": "Public metadata/version inventory or landing HTML only; no dataset-file content requested."
+  },
+  {
+    "name": "dataverse-landing.html",
+    "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FV2BYYQ",
+    "final_url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FV2BYYQ",
+    "checked_at_utc": "2026-10-29T23:48:10.039592+00:00",
+    "http_status": 202,
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 2071,
+    "sha256": "31f31432ec9f3076162c99100ee26a082cf22e66a378758ff2600fbb2574a38c",
+    "authentication_used": false,
+    "scope": "Public metadata/version inventory or landing HTML only; no dataset-file content requested.",
+    "public_body_bundled": false,
+    "body_role": "Transient AWS WAF JavaScript challenge; no bypass/execution; only request envelope/hash retained publicly."
+  }
+]
