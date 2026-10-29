@@ -1,0 +1,11 @@
+{
+  "checked_at_utc": "2026-10-29T23:25:07.921183+00:00",
+  "http_status": 202,
+  "study": "ion-acoustic-moment-filter-audit",
+  "request_body_sha256": "9cec1ab1482d08bf9e9e06dd1443deca575c7a5cec859b84d71f3a7bb817a280",
+  "response": {
+    "status": "submitted",
+    "id": "p_qJlj7iM9D4USuQrH",
+    "status_url": "https://publish.fun/api/papers/p_qJlj7iM9D4USuQrH"
+  }
+}

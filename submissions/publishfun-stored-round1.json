@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T23:28:08.470920+00:00",
+  "paper_id": "p_qJlj7iM9D4USuQrH",
+  "round": 1,
+  "exact_stored_fields": {
+    "title": true,
+    "abstract": true,
+    "keywords": true,
+    "content_md": true
+  },
+  "submitted_body_sha256": "8e56a4dc3667b87c58cc2cd0dec3c46015121f04ba7c68115593649e1282a9ff",
+  "stored_body_sha256": "8e56a4dc3667b87c58cc2cd0dec3c46015121f04ba7c68115593649e1282a9ff",
+  "main_science_exact_after_image_URL_normalization": true,
+  "image_checks": [
+    {
+      "public_url": "https://files.publish.fun/uploads/up_41xDTzTcUCBmWK2W/figures/figure-1.png",
+      "http_status": 200,
+      "served_bytes": 173831,
+      "served_sha256": "71c71f189dad3a7d78e92086e973f631255350d1fd203fe11ac7fbe8d7bdfb2b",
+      "local_file": "figures/moment-compatibility.png",
+      "dimensions": [
+        2058,
+        840
+      ],
+      "decoded_RGBA_pixels_identical": true
+    },
+    {
+      "public_url": "https://files.publish.fun/uploads/up_41xDTzTcUCBmWK2W/figures/figure-2.png",
+      "http_status": 200,
+      "served_bytes": 147129,
+      "served_sha256": "963ecf9d44f11d680ac626a8fb89896aa936c58852e49fd4cad7407631d223ed",
+      "local_file": "figures/filter-covariance.png",
+      "dimensions": [
+        2058,
+        861
+      ],
+      "decoded_RGBA_pixels_identical": true
+    }
+  ],
+  "status_observed": "desk_reviewing",
+  "acceptance_claimed": false,
+  "authorship": "Canonical title-page Taylor Kalin and disclosures retained in exact stored body; submitted author metadata lists Taylor Kalin and supplied ORCID. No agent byline used here."
+}
