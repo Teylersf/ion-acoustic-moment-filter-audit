@@ -1,0 +1,5 @@
+Taylor Kalin
+
+Eight-page mathematical comment on Li, Liu and Loureiro, JPP92 E20: a zero-divisor temperature derivation and a carefully qualified finite-filter operator-definition gap. Preserves the window-centered covariance counterargument and does not claim a source simulation or heating refutation.
+
+Two original figures and exact rational examples; all42 computational files were reproduced unchanged and anonymously verified. Software DOI10.5281/zenodo.23782239. Public preprint and AI-review processing are distinct from independent human peer review.

@@ -1,0 +1,18 @@
+{
+  "observed_at_utc": "2026-10-29T22:23:36.575313+00:00",
+  "state": "under_moderation",
+  "submission_id": 1290,
+  "submission_url": "https://airaxiv.com/papers/submissions/1290/",
+  "public_paper_id": null,
+  "author": "Taylor Kalin",
+  "author_type": "Human",
+  "submission_classification": "AI-generated",
+  "category": "Theoretical",
+  "title": "Continuity and spatial averaging in ion-acoustic reconnection diagnostics",
+  "abstract_sha256": "46da84e78eb21d4779adff2be9f2480462b09642b2b488a138282522d9fd2022",
+  "manuscript_version": "1.0.0",
+  "uploaded_pdf_bytes": 355428,
+  "uploaded_pdf_sha256": "ad44e02676294d9f649e3e9cd98f2f595840d95b5d79721f64db787b3ec16e4b",
+  "initial_submission_created_once": true,
+  "verification": "Human byline selected, optional incompatible profile URL cleared, exact canonical title/abstract/PDF uploaded once; existing owned submission1290 opened."
+}

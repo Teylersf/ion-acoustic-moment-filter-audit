@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "status": "pass",
+  "all_checks_passed": true,
+  "checked_at_utc": "2026-10-29T22:21:11.942149+00:00",
+  "study": "ion-acoustic-moment-filter-audit",
+  "version": "1.0.0",
+  "PDF": {
+    "path": "paper/main.pdf",
+    "pages": 8,
+    "bytes": 355428,
+    "sha256": "ad44e02676294d9f649e3e9cd98f2f595840d95b5d79721f64db787b3ec16e4b",
+    "author": "Taylor Kalin"
+  },
+  "manuscript": {
+    "path": "paper/manuscript.md",
+    "bytes": 23117,
+    "sha256": "16c43578caf6c0ff410fe18b5f7e6f433bcaacfb5d6333862340fb1b619f9a3a"
+  },
+  "pages_inspected": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "visual_checks": [
+    {
+      "page": 5,
+      "render_sha256": "197e31db1fd6560b4df577e4517691473f3d9f6c206259f63aad24766ae280a4",
+      "independent_rerender_equals_inspected_image": true,
+      "visual_status": "pass"
+    },
+    {
+      "page": 6,
+      "render_sha256": "bb1bbdde7cdb992f8a855478ef4920f8f563196cf49a60b2c0059876fcd57b9c",
+      "independent_rerender_equals_inspected_image": true,
+      "visual_status": "pass"
+    },
+    {
+      "page": 7,
+      "render_sha256": "c52097f2b1856982e58721a4962090faa59f32fa274903b39bc13fa92d29bb20",
+      "independent_rerender_equals_inspected_image": true,
+      "visual_status": "pass"
+    },
+    {
+      "page": 8,
+      "render_sha256": "7c55f839689828ef7da6454b0e5db76f07e4d7f979c5e8c9966be9349140098a",
+      "independent_rerender_equals_inspected_image": true,
+      "visual_status": "pass"
+    }
+  ],
+  "layout_checks": {
+    "equations_12_13_and_window_centering": "pass",
+    "Figure2_axes_bars_fraction_labels_and_caption": "readable and consistent",
+    "verification_counts_and_runtime_prose": "pass",
+    "availability_disclosure_and_5_references": "pass",
+    "clipping_overlap_missing_glyphs": false
+  },
+  "whole_document_text_checks": {
+    "equations_1_through_13_present": true,
+    "references": 5,
+    "DOI_and_computational_H_present": true
+  },
+  "earlier_full_science_review": {
+    "receipt": "audit/manuscript-independent-review.json",
+    "reviewed_MD_sha256": "dbe4cfcb653a09e12a1707d71015df788c317067014ae0b2f72cf7f50dbbf3e3",
+    "exact_draft_reconstructed_by_reversing_only_two_finalization_replacements": true,
+    "delta_scope": [
+      "code and data availability paragraph",
+      "Reference5 permanent software citation"
+    ],
+    "scientific_content_unchanged": true
+  },
+  "public_software_citation": {
+    "doi": "10.5281/zenodo.23782239",
+    "title": "Computational evidence for Continuity and spatial averaging in ion-acoustic reconnection diagnostics",
+    "version": "1.0.0",
+    "creator": "Kalin, Taylor",
+    "orcid": "0009-0003-9000-9315",
+    "resource_type": "Software",
+    "DataCite_state": "findable",
+    "computational_H": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+    "anonymous_primary_requests": [
+      {
+        "url": "https://zenodo.org/api/records/23782239",
+        "http_status": 200,
+        "authentication_used": false,
+        "final_url": "https://zenodo.org/api/records/23782239",
+        "bytes": 5836,
+        "sha256": "3019cb320bb334306beb7cd1dcbb897e5077a6e7a862f28432a6b501e15007a7"
+      },
+      {
+        "url": "https://api.datacite.org/dois/10.5281/zenodo.23782239",
+        "http_status": 200,
+        "authentication_used": false,
+        "final_url": "https://api.datacite.org/dois/10.5281/zenodo.23782239",
+        "bytes": 9750,
+        "sha256": "d6104240e6e8f74d15e35b2037d9e0841bf010f001f0a9981f7a48460e2c610e"
+      },
+      {
+        "url": "https://zenodo.org/api/records/23782239/files/ion-acoustic-moment-filter-audit-code-v1.0.0.zip/content",
+        "http_status": 200,
+        "authentication_used": false,
+        "final_url": "https://zenodo.org/api/records/23782239/files/ion-acoustic-moment-filter-audit-code-v1.0.0.zip/content",
+        "bytes": 363538,
+        "sha256": "33d3f51c355896403154b1be4f4e13a2a652f69e80628ac9c8512abc97abd7b3"
+      }
+    ],
+    "archive_files": 42,
+    "manifest_self_excluded_members": 41,
+    "ZIP_comment_equals_H": true,
+    "all_archive_members_equal_git_H_blobs": true
+  },
+  "compiler_notes": {
+    "warnings": [
+      "Underfull \\hbox (badness 4048) in paragraph at lines 275--280"
+    ],
+    "underfull_kernel_paragraph_visually_nonclipping": true,
+    "overfull_or_missing_glyph_warnings": 0
+  },
+  "material_issues": [],
+  "files_modified_by_review": [
+    "submissions/final-pages-and-citation-review.json"
+  ],
+  "scope": "Read-only final pages5-8/citation and exact science-delta review. No science reruns, manuscript/code edits, account mutations or publication calls."
+}

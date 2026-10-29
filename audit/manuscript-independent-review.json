@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T22:06:27.856212+00:00",
+  "study": "ion-acoustic-moment-filter-audit",
+  "manuscript_version": "1.0.0",
+  "status": "pass",
+  "all_material_scientific_checks_passed": true,
+  "scope": "Full independent scientific consistency review of the current manuscript; no PDF layout review, new PIC simulation, hidden postprocessing reconstruction or independent human peer review claimed.",
+  "manuscript": {
+    "path": "paper/manuscript.md",
+    "bytes": 22336,
+    "sha256": "dbe4cfcb653a09e12a1707d71015df788c317067014ae0b2f72cf7f50dbbf3e3",
+    "complete_text_read": true
+  },
+  "input_bindings": [
+    {
+      "path": "reproduction/run_audit.py",
+      "sha256": "f12ac9b9e6da0cc8d8b5d26d921e329d386a739d996dc8662c407ca1e22e2f20"
+    },
+    {
+      "path": "COMPUTATIONAL_METHODS.md",
+      "sha256": "e271e32d0c5a30e774e35607241655969611c859bb7307d718947c7b476f0149"
+    },
+    {
+      "path": "data/producer-results.json",
+      "sha256": "d95c3890ad4f7355e10923cf69db8ea38e3831d36ec198a511227a4b5e83f5f4"
+    },
+    {
+      "path": "data/sg-covariances.csv",
+      "sha256": "ef65d03c4ea40d20c42c7ad74024407e0c1318fa474d1410de63429a2f8b97bc"
+    },
+    {
+      "path": "data/sg-temporal-controls.csv",
+      "sha256": "ee63421e3df51f0edc5ec4d197151a1b85ac816ae0efa5854df7588d4effeaae"
+    },
+    {
+      "path": "data/moment-families.csv",
+      "sha256": "025b4ee9ea1ff4f5ca0535b3852f7a172b5e524cb04d05124eabd1885cc25254"
+    },
+    {
+      "path": "audit/producer-independent-review.json",
+      "sha256": "bb0d15f4532a58b71bca5b254c7446cbf6a4821b5ce47eab23f6f89d2ec88b01"
+    }
+  ],
+  "target_source": {
+    "journal_DOI": "10.1017/S002237782510113X",
+    "edition": "Final30pageJPP92(1)E20 version of record, not superseded preprint-only claims",
+    "PDF_sha256": "0ad1cbf795a58958b6889bebdff355fd463fb343aadef84e12e9261e100d7fa0",
+    "equations_read_from_publisher_math_and_visually_rechecked": [
+      "B5c",
+      "B5d",
+      "B6c",
+      "B10b"
+    ],
+    "additional_final_source_definitions_checked": [
+      "B13",
+      "B17",
+      "4.2",
+      "4.3",
+      "4.4",
+      "4.5",
+      "D1",
+      "D2"
+    ],
+    "source_p20_new160dpi_visual_check": true
+  },
+  "checks": [
+    {
+      "topic": "ManuscriptEq2/sourceB6c",
+      "status": "pass",
+      "finding": "Mass, velocity square,1/n prefactor, heat-flux divergence and common velocity-divergence denominator preserved."
+    },
+    {
+      "topic": "ManuscriptEq3/sourceB10b",
+      "status": "pass",
+      "finding": "2(Te0+2Ti0)^2/(Te0+Ti0) and cold-ion limit2Te0 preserved; order-unity beta and zero-heat-flux assumptions credited."
+    },
+    {
+      "topic": "ManuscriptEq4/sourceB5c-d",
+      "status": "pass",
+      "finding": "Literal n=m=e=1 restriction avoids general-density prefactor manipulation. SourcePDF confirms no added density multiplier on the B5c offdiagonal cross term."
+    },
+    {
+      "topic": "Continuity and undivided subsystem",
+      "status": "pass",
+      "finding": "Exact steady stagnation-point continuity with n>0 sets d=0; undivided Q+(T-u\u00b2)d=0 leaves T undetermined in this subsystem. Finite-d paths explicitly fail exact steady uniform-density continuity."
+    },
+    {
+      "topic": "Drift and variance language",
+      "status": "pass",
+      "finding": "Squared bulk speed is distinguished from central thermal variance; no assertion that electric fields cannot cause heating or that measured temperatures are impossible."
+    },
+    {
+      "topic": "Fixed-filter covariance",
+      "status": "pass",
+      "finding": "C=G(nf)-GnGf; pointwise residual product R and Leonard/cross remainder K are algebraically correct. Window-centered residuals W=C exactly for normalized signed weights."
+    },
+    {
+      "topic": "D/V sign and charge normalization",
+      "status": "pass",
+      "finding": "D*=-C_nE/N with no extra q; V*=m/(qN)*partial_t C_nu retains signed q and N outside the derivative. SourceD2 signs and instantaneous temporal budget agree."
+    },
+    {
+      "topic": "Time and spatial derivatives",
+      "status": "pass",
+      "finding": "Filter is fixed in time; time-varying N remains outside the derivative. Interior translation-invariant convolution/derivative commutation distinguished from unknown boundary rules."
+    },
+    {
+      "topic": "Full-product T/I controls",
+      "status": "pass",
+      "finding": "Source full-product definitions retained rather than incorrectly labeled as pointwise-residual covariance replacements."
+    },
+    {
+      "topic": "Synthetic examples",
+      "status": "pass",
+      "finding": "C=-72/35 for unscaled quadratic and-18/875 for weak density, D*=36/35 and9/875 respectively; alternating values and figure comparison agree with independent producer review."
+    },
+    {
+      "topic": "Static primitive pressure witness",
+      "status": "pass",
+      "finding": "P=100+(2/3)x\u00b3+x\u2075/500 has derivative2x\u00b2+x\u2074/100=(2+x\u00b2/100)x\u00b2; P is positive on the required nested SG(5,2) stencil[-4,4].",
+      "minimum_pressure_on_nested_stencil": "20732/375"
+    },
+    {
+      "topic": "Actual source implementation boundary",
+      "status": "pass",
+      "finding": "The window-centered convention may already yield exact source covariances; kernel/degree/edges/residual convention and raw arrays unresolved. No actual anomaly amplitude, physical effect size or revised reconnection rate inferred."
+    },
+    {
+      "topic": "Edition/withdrawal/positive controls",
+      "status": "pass",
+      "finding": "Final Doppler revision credited; preprint-only overlays not attributed as final errors. AppendixE mass-factor candidate expressly withdrawn. Dispersion normalization and mass-ratio controls not promoted as PIC refutations."
+    },
+    {
+      "topic": "Prior-literature reading claims",
+      "status": "pass",
+      "finding": "Savitzky-Golay metadata verification and Germano abstract-only evidence are explicitly bounded; complete prior-paper reading is not claimed."
+    },
+    {
+      "topic": "Computational scope",
+      "status": "pass",
+      "finding": "All exact rational producer/independent checks are described as synthetic and moment-subsystem calculations, not full Vlasov-Maxwell or alternative steady reconnection solutions."
+    }
+  ],
+  "narrow_prose_repairs_verified": [
+    "Replaced bulk-energy wording with squared bulk speed.",
+    "Added the source order-unity plasma-beta qualification to B10b estimate."
+  ],
+  "material_issues": [],
+  "recommended_scientific_edits": [],
+  "expected_pre_release_metadata_work_not_a_scientific_defect": "Reference5/code archive DOI is a clearly identified draft placeholder, to be finalized by the parent before publication/PDF release.",
+  "files_modified_by_this_review": [
+    "audit/manuscript-independent-review.json"
+  ],
+  "new_MHD_or_PIC_simulations": 0,
+  "source_author_contact_or_external_mutation": false
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "all_checks_passed": true,
+  "checked_at_utc": "2026-10-29T22:23:36.575313+00:00",
+  "version": "1.0.0",
+  "author": "Taylor Kalin",
+  "pdf_pages": 8,
+  "pdf_bytes": 355428,
+  "pdf_sha256": "ad44e02676294d9f649e3e9cd98f2f595840d95b5d79721f64db787b3ec16e4b",
+  "manuscript_sha256": "16c43578caf6c0ff410fe18b5f7e6f433bcaacfb5d6333862340fb1b619f9a3a",
+  "primary_reviewer_pages_visually_inspected": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "independent_reviewer_pages_visually_inspected": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "all_final_pages_visually_passed": true,
+  "figures": 2,
+  "tables": 0,
+  "references": 5,
+  "numbered_math_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "independent_receipt_sha256": "dc21fdd79e231feb2c8b37fbf1f1c3f8fdbeece963183953660626bcb4034a85",
+  "TeX": "Tectonic and desktop compiler success; no overfull box; one nonblocking ordinary underfull paragraph at the SG-kernel explanation, legible in final render.",
+  "software_doi": "10.5281/zenodo.23782239",
+  "scientific_code_commit": "36b1c070e029fd7e3c05e96af3b93172444bfee2",
+  "archive_files": 42,
+  "scope": "Bounded mathematical comment, not a source PIC/field reconstruction or full steady solution."
+}

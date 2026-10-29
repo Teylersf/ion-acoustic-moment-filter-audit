@@ -6,9 +6,9 @@ This computational study checks a normalized ion-temperature moment subsystem
 and finite-filter identities associated with Li, Liu and Loureiro,
 *Role of ion acoustic instability in magnetic reconnection*, JPP 92, E20,
 [10.1017/S002237782510113X](https://doi.org/10.1017/S002237782510113X).
-This release contains the computational evidence, independent checks and source
-concordance. The manuscript is maintained separately from this computational
-snapshot.
+Read the [complete mathematical comment](paper/manuscript.md), [eight-page PDF](paper/main.pdf) and [public release](https://github.com/Teylersf/ion-acoustic-moment-filter-audit/releases/tag/v1.0.0).
+
+The verified [software archive](https://doi.org/10.5281/zenodo.23782239) preserves all 42 computational files at commit `36b1c070e029fd7e3c05e96af3b93172444bfee2`. The archived README identifies that computational stage; current manuscript links are added here. [Publication status](submissions/publication-status.json) records each venue separately.
 
 ```text
 python -m pip install -r requirements.txt
